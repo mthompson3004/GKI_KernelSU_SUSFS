@@ -380,7 +380,7 @@ jobs:
           echo "CONFIG_NETFILTER_XT_MATCH_ADDRTYPE=y" >> ./common/arch/arm64/configs/gki_defconfig
           echo "CONFIG_IP6_NF_NAT=y" >> ./common/arch/arm64/configs/gki_defconfig
           echo "CONFIG_IP6_NF_TARGET_MASQUERADE=y" >> ./common/arch/arm64/configs/gki_defconfig
-          echo "CONFIG_RFKILL=y" >> ./common/arch/arm64/configs/gki_defconfig
+          #echo "CONFIG_RFKILL=y" >> ./common/arch/arm64/configs/gki_defconfig
           echo "CONFIG_DEVTMPFS=y" >> ./common/arch/arm64/configs/gki_defconfig
           echo "CONFIG_NULL_TTY=y" >> ./common/arch/arm64/configs/gki_defconfig
           echo "CONFIG_LTO_CLANG_THIN=y" >> ./common/arch/arm64/configs/gki_defconfig
